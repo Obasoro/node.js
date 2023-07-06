@@ -5,10 +5,26 @@ pipeline {
         timeout(time: 1, unit: 'SECONDS')
     }
     stages {
-        stage('Example') {
+        stage('World') {
             steps {
-                echo 'Hello World'
+                echo 'Welcome!!! Hello World'
             }
         }
-    }
+
+       stage('Africa') {
+            steps {
+                echo 'Welcome to the land of the First'
+            }
+        }
+     stage('West Africa') {
+            steps {
+                echo 'Welcome to West Africa'
+            }
+      }
+
+    stage('Nigeria') {
+            steps {
+                echo 'Welcome to Nigeria, Largest Black Nation in World'
+            }
+        }
 }
